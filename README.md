@@ -1,4 +1,5 @@
-# Supplementary Material - ICLR 2024 - Submission 133
+# Supplementary Material of "Constraint-Free Structure Learning with Smooth Acyclic Orientations
+" @ICLR 2024
 
 ## Environment
 
