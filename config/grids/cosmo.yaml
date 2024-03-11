@@ -1,0 +1,24 @@
+# Generic Parameters
+threshold: 0.3
+force_dag: False
+batch_size: 64
+max_epochs: 2000
+early_stop: False
+# Cosmo Custom Parameters
+learning_rate:
+  loguniform: [1.e-3, 1.e-2]
+l1_adj_reg:
+  loguniform: [1.e-4, 1.e-3]
+l2_adj_reg:
+  loguniform: [1.e-3, 5.e-3]
+priority_reg:
+  loguniform: [1.e-3, 3.e-3]
+hidden_size: null
+init_temperature: 0.45
+temperature:
+  loguniform: [5.e-4, 1.e-3]
+shift:
+  loguniform: [5.e-3, 2.e-2]
+hard_threshold: False
+anneal: cosine
+symmetric: False

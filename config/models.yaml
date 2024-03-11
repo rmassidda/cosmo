@@ -1,0 +1,19 @@
+# The file contains special keyword containing multiple algorithms.
+# The keywords can be used in alternative to single algorithm names
+# when benchmarking. Keywords are recursively defined, so that a group
+# can contain another.
+continuous:
+  - golem
+  - dagma
+  - notears
+  - cosmo
+  - nocurl
+  - daggnn
+classic:
+  - pc
+  - ges
+all:
+  - continuous
+  - classic
+extra:
+  - cyclic
